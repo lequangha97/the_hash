@@ -27,6 +27,9 @@ WebUI.click(findTestObject('Object Repository/Page_DayAway/button_SIGN IN'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Sign in to DayAway/input_SIGN IN_username'), 'lequangha.pnv17@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign in to DayAway/input_SIGN IN_password'),'123123')
+WebUI.setText(findTestObject('Object Repository/Page_Sign in to DayAway/input_SIGN IN_password'), '123123')
 
 WebUI.click(findTestObject('Object Repository/Page_Sign in to DayAway/input_Forgot Password_login'))
+
+WebUI.verifyElementPresent(findTestObject('Page_DayAway/span_LE QUANG HA'), 0)
+
