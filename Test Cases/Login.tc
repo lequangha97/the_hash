@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ab323715-9f5a-4de6-9e0c-8a30319e1e07</testCaseGuid>
+   <variable>
+      <defaultValue>'le101@gmail.com'</defaultValue>
+      <description>this is username field</description>
+      <id>c77d7b74-aa5d-452e-8d92-409b5f56dbb2</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'123123'</defaultValue>
+      <description>this is passwword field</description>
+      <id>664ee252-6799-4dc9-b562-8ee796f719b5</id>
+      <masked>false</masked>
+      <name>passwword</name>
+   </variable>
 </TestCaseEntity>
