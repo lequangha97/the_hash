@@ -29,4 +29,6 @@ WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
 'Check on \'Medicaid\' checkbox'
 WebUI.check(findTestObject('Page_CuraAppointment/chk_Medicaid'))
 
+WebUI.click(findTestObject('Object Repository/Page_DayAway/button_SEARCH'))
+
 WebUI.closeBrowser()
